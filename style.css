@@ -1,5 +1,33 @@
+
+
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+header,
+section {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: gray;
+}
+
+section#featured-proptery figcaption {
+  text-align: center;
+}
+
+section#featured-property p {
+  width: 800px;
+  margin: auto;
+}
+
+section#details div {
+  float: left;
+  width: 25%;
+  background: red;
 }
